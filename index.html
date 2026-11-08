@@ -1,2120 +1,356 @@
 <!doctype html>
-
-
-
-  
-
-
-<html class="theme-next muse use-motion" lang="zh-Hans">
-<head><meta name="generator" content="Hexo 3.9.0">
-  <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
-
-
-
-
-  
-  
-  
-  
-
-  
-    
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-    
-    
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-  
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
-
-<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
-
-
-  <meta name="keywords" content="Hexo, NexT">
-
-
-
-
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
-
-
-
-
-
-
-<meta name="description" content="记录者用于记录arthur的个人学习经历，工作中解决的问题，可以加群一起学习成长：345885057。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="记录者|Arthur&#39;blog">
-<meta property="og:url" content="http://arthurli.github.io/index.html">
-<meta property="og:site_name" content="记录者|Arthur&#39;blog">
-<meta property="og:description" content="记录者用于记录arthur的个人学习经历，工作中解决的问题，可以加群一起学习成长：345885057。">
-<meta property="og:locale" content="zh-Hans">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="记录者|Arthur&#39;blog">
-<meta name="twitter:description" content="记录者用于记录arthur的个人学习经历，工作中解决的问题，可以加群一起学习成长：345885057。">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post"},
-    fancybox: true,
-    motion: true,
-    duoshuo: {
-      userId: '6227789026712094000',
-      author: 'Author大大'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="http://arthurli.github.io/">
-
-
-
-
-
-  <title> 记录者|Arthur'blog </title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-
-
-
-
-
-  <script type="text/javascript">
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?d7a6c2ca8932298da5543dfd777dd27f";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-  
-
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
-    <div class="headband"></div>
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-meta ">
-  
-
-  <div class="custom-logo-site-title">
-    <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
-      <span class="site-title">记录者|Arthur'blog</span>
-      <span class="logo-line-after"><i></i></span>
-    </a>
-  </div>
-    
-      <p class="site-subtitle"></p>
-    
-</div>
-
-<div class="site-nav-toggle">
-  <button>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-    <span class="btn-bar"></span>
-  </button>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
-            
-            首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
-            
-            分类
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
-            
-            关于
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-archives">
-          <a href="/archives" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
-            
-            归档
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
-            
-            标签
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-commonweal">
-          <a href="/404.html" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>
-            
-            公益404
-          </a>
-        </li>
-      
-
-      
-    </ul>
-  
-
-  
-</nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-  <section id="posts" class="posts-expand">
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/11/19/essay-decadent-weekend/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/11/19/essay-decadent-weekend/" itemprop="url">
-                  你把周末献给了谁
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-11-19T17:22:05+08:00">
-                2017-11-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/essay/" itemprop="url" rel="index">
-                    <span itemprop="name">essay</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/11/19/essay-decadent-weekend/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/11/19/essay-decadent-weekend/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p><img src="/img/weekend-01.jpeg" alt="周末-01"></p>
-<p>上帝造万物，到第七天休息了，所以…我们有了周末。现代生活多种多样，随着生活节奏的加快，我们越来越感觉自己没有时间，每天除了上班就在上班的路上。好不容易等到了休息的时间，总感觉过的那么快那么快…
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/11/19/essay-decadent-weekend/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/10/15/c-learn/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/10/15/c-learn/" itemprop="url">
-                  如何有效学习+实践
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-10-15T22:08:33+08:00">
-                2017-10-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/essay/" itemprop="url" rel="index">
-                    <span itemprop="name">essay</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/10/15/c-learn/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/10/15/c-learn/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>提到学习，大家都不陌生。如何有效地学习很重要，其实每个人都想花最少的时间去学习到更多的技能和知识，但很多时候都事与愿违，由于种种原因，我们不但没能高效的学习并且最后什么都没学会。</p>
-<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>​     时间过得很快，本来给自己定的目标眼看着又一个个的完不成了。其实一直自己都这样，天天励志学习，但是总是坚持不下来。学了两天<code>mongodb</code>,又转手学了几天<code>python</code>，大学断断续续学了半年<code>java</code>,但是都因为坚持不下来…。
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/10/15/c-learn/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/06/21/git-not-found/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/06/21/git-not-found/" itemprop="url">
-                  sudo: git: command not found
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-06-21T09:46:10+08:00">
-                2017-06-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/06/21/git-not-found/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/06/21/git-not-found/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>服务器：centos6.8</p>
-<h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><blockquote>
-<p>在利用git钩子实现自动化网站部署的时候，需要脚本执行 <code>git pull origin feature</code>,因为直接执行会提示没有权限（我打印出当前执行用户，是root，但不知道为什么没权限），所以需要执行<code>sudo git pull origin feature</code>，这个时候总提示<code>sudo: git: command not found</code>    </p>
-</blockquote>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p><code>/etc/sudoers</code>里面的这一行注释掉 <code>#Defaults secure_path = /sbin:/bin:/usr/sbin:/usr/bin</code></p>
-<p>链接：<a href="http://jiluz.com/2017/03/07/git-hooks/" target="_blank" rel="external">git 自动化部署</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/05/13/crontab/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/05/13/crontab/" itemprop="url">
-                  crontab定时任务
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-05-13T09:40:48+08:00">
-                2017-05-13
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/05/13/crontab/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/05/13/crontab/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>最近需要做一些服务器的自动备份，就用到了linux的定时命令crontab。   </p>
-<h1 id="查看和编辑crontab文件"><a href="#查看和编辑crontab文件" class="headerlink" title="查看和编辑crontab文件"></a>查看和编辑crontab文件</h1><ul>
-<li>查看当前用户是否有计划任务，<code>crontab -l</code>  查看。</li>
-<li>如果有任务直接 <code>crontab -e</code>进行编辑。</li>
-<li>crontab格式说明<br>每个任务都由六个栏位组成，每个含义如下</li>
-</ul>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/05/13/crontab/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/03/27/read-plan1/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/27/read-plan1/" itemprop="url">
-                  阅读书单2017
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-27T15:44:07+08:00">
-                2017-03-27
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/read/" itemprop="url" rel="index">
-                    <span itemprop="name">read</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/03/27/read-plan1/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/27/read-plan1/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>在2017年四分之一即将到来之际，抽空把最近已读的书名列在这里。以后作为总结和记录作用。有时发现自己是个很懒散的人，或许用这种方式会增加自己的积极性，就当与君共勉吧，O(∩<em>∩)O哈哈~</em>)<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/03/27/read-plan1/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/03/07/git-hooks/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/03/07/git-hooks/" itemprop="url">
-                  git hooks自动化部署及踩坑全过程
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-07T09:46:48+08:00">
-                2017-03-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/linux/" itemprop="url" rel="index">
-                    <span itemprop="name">linux</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/03/07/git-hooks/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/07/git-hooks/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>由于git每次有提交，服务器端都需要手动pull，很麻烦，于是研究一下git hooks想实现自动化网站部署。</p>
-<p>网上搜索:随便一搜都能出来下面一段这样的代码，然后告诉你这就完成了。本以为copy过来真的就好使了，但事实总会不那么尽如人意。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/03/07/git-hooks/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/02/17/learn-plan/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/02/17/learn-plan/" itemprop="url">
-                  2017的努力
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-17T17:25:09+08:00">
-                2017-02-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/essay/" itemprop="url" rel="index">
-                    <span itemprop="name">essay</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/02/17/learn-plan/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/17/learn-plan/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>2月18开始    </p>
-<p>内容：mongodb</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/02/17/learn-plan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2017/01/07/2017-plan/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/07/2017-plan/" itemprop="url">
-                  2017小目标
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-07T09:46:48+08:00">
-                2017-01-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/essay/" itemprop="url" rel="index">
-                    <span itemprop="name">essay</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/01/07/2017-plan/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/07/2017-plan/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>上学的时候总感觉时间过得慢，毕业上班了之后生活节奏的加快，每周刚开始又到周末了。一年时间说长不长，若不给自己点目标和动力，一年之后回想自己干了什么，才发现自己又荒废了一年。（2016我就连个总结都写不出来。^_^）<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/01/07/2017-plan/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2016/11/24/git-simple-summary/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/24/git-simple-summary/" itemprop="url">
-                  git简单介绍
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-24T18:38:18+08:00">
-                2016-11-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/php/" itemprop="url" rel="index">
-                    <span itemprop="name">php</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/11/24/git-simple-summary/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/24/git-simple-summary/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="git使用快速入门"><a href="#git使用快速入门" class="headerlink" title="git使用快速入门"></a>git使用快速入门</h3><p>本次git的简单理解目的为了帮助不理解的童鞋更快理解git使用，不光是死记硬背那几个步骤，理解了就不用背了。大家闲着无聊可以看看，没有使用过git的童鞋可以用这个快速入门，先保证能够正常的工作使用，如果时间允许还是可以去看网上的git相关教程了解更多。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/11/24/git-simple-summary/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </p></div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://arthurli.github.io/2016/11/23/highcharts01/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Arthur Li">
-    <meta itemprop="description" content>
-    <meta itemprop="image" content="/img/avatar.jpg">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="记录者|Arthur'blog">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="记录者|Arthur'blog" src>
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/11/23/highcharts01/" itemprop="url">
-                  highcharts坐标轴yAxis和xAxis设置
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-23T16:18:12+08:00">
-                2016-11-23
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/js/" itemprop="url" rel="index">
-                    <span itemprop="name">js</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/11/23/highcharts01/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/23/highcharts01/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h3 id="Highcharts"><a href="#Highcharts" class="headerlink" title="Highcharts"></a>Highcharts</h3>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-  </section>
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
-  </nav>
-
-
-          
-          </div>
-          
-
-
-          
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview sidebar-panel sidebar-panel-active">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" itemprop="image" src="/img/avatar.jpg" alt="Arthur Li">
-          <p class="site-author-name" itemprop="name">Arthur Li</p>
-          <p class="site-description motion-element" itemprop="description">记录者用于记录arthur的个人学习经历，工作中解决的问题，可以加群一起学习成长：345885057。</p>
-        </div>
-        <nav class="site-state motion-element">
-        
-          
-            <div class="site-state-item site-state-posts">
-              <a href="/archives">
-                <span class="site-state-item-count">15</span>
-                <span class="site-state-item-name">日志</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-categories">
-              <a href="/categories">
-                <span class="site-state-item-count">5</span>
-                <span class="site-state-item-name">分类</span>
-              </a>
-            </div>
-          
-
-          
-            <div class="site-state-item site-state-tags">
-              <a href="/tags">
-                <span class="site-state-item-count">26</span>
-                <span class="site-state-item-name">标签</span>
-              </a>
-            </div>
-          
-
-        </nav>
-
-        
-
-        <div class="links-of-author motion-element">
-          
-        </div>
-
-        
-        
-
-        
-        
-
-        
-
-
-      </section>
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">
-  
-  &copy;  2014 - 
-  <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">Arthur Li</span>
-</div>
-
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
-  </a>
-</div>
-
-
-        
-
-<div class="busuanzi-count">
-
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-  
-    <span class="site-uv"><i class="fa fa-user">本站访客</i><span class="busuanzi-value" id="busuanzi_value_site_uv"></span>人</span>
-  
-
-  
-    <span class="site-pv"><i class="fa fa-eye">本站总访问量</i><span class="busuanzi-value" id="busuanzi_value_site_pv"></span>次</span>
-  
-  
-</div>
-
-
-
-        
-      </div>
-    </footer>
-
-    <div class="back-to-top">
-      <i class="fa fa-arrow-up"></i>
-    </div>
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arthur Li</title>
+<meta name="description" content="Arthur Li — engineer turned AI builder. Building AI-native products, agents and workflows.">
+<meta property="og:title" content="Arthur Li">
+<meta property="og:description" content="Engineer turned AI builder. Building AI-native products, agents and workflows.">
+<meta property="og:url" content="https://ahuili.me">
+<meta name="theme-color" content="#0d0f12" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#fafaf8" media="(prefers-color-scheme: light)">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root {
+    --bg: #fafaf8;
+    --fg: #16181d;
+    --muted: #5d636e;
+    --faint: #8a909a;
+    --line: #e6e5e0;
+    --card: #ffffff;
+    --accent: #5b5bd6;
+    --accent-soft: rgba(91, 91, 214, 0.1);
+    --thread: rgba(91, 91, 214, 0.18);
   }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0d0f12;
+      --fg: #e8e9ec;
+      --muted: #a0a6b0;
+      --faint: #6c727c;
+      --line: #22262d;
+      --card: #14171c;
+      --accent: #9d9dff;
+      --accent-soft: rgba(157, 157, 255, 0.12);
+      --thread: rgba(157, 157, 255, 0.14);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d0f12;
+    --fg: #e8e9ec;
+    --muted: #a0a6b0;
+    --faint: #6c727c;
+    --line: #22262d;
+    --card: #14171c;
+    --accent: #9d9dff;
+    --accent-soft: rgba(157, 157, 255, 0.12);
+    --thread: rgba(157, 157, 255, 0.14);
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+
+  /* weft threads: a quiet woven texture behind the hero */
+  .threads {
+    position: absolute; inset: 0 0 auto 0; height: 520px; overflow: hidden; pointer-events: none;
+    mask-image: linear-gradient(to bottom, #000 30%, transparent);
+    -webkit-mask-image: linear-gradient(to bottom, #000 30%, transparent);
+  }
+  .threads svg { width: 100%; height: 100%; }
+  .threads path { fill: none; stroke: var(--thread); stroke-width: 1; }
+
+  .wrap { position: relative; max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+  header.top {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 28px 0;
+  }
+  .brand { font-weight: 600; letter-spacing: -0.01em; text-decoration: none; }
+  .brand span { color: var(--accent); }
+  .tools { display: flex; gap: 6px; }
+  .tools button {
+    font: inherit; font-size: 13px; color: var(--muted); background: transparent;
+    border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; cursor: pointer;
+  }
+  .tools button:hover { color: var(--fg); border-color: var(--faint); }
+
+  .hero { padding: 72px 0 56px; }
+  .eyebrow { font-size: 13px; color: var(--accent); letter-spacing: 0.04em; margin: 0 0 18px; }
+  h1 {
+    font-size: clamp(34px, 6vw, 52px); line-height: 1.12; letter-spacing: -0.025em;
+    margin: 0 0 22px; font-weight: 650; text-wrap: balance;
+  }
+  .nw { white-space: nowrap; }
+  h1 em { font-style: normal; color: var(--accent); }
+  .lede { font-size: 18px; color: var(--muted); max-width: 600px; margin: 0 0 30px; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; text-decoration: none;
+    font-size: 14px; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--card); transition: border-color .15s, transform .15s;
+  }
+  .btn:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .btn.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .btn svg { width: 16px; height: 16px; }
+
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
+  h2 {
+    font-size: 13px; font-weight: 500; color: var(--faint); letter-spacing: 0.08em;
+    text-transform: uppercase; margin: 0 0 22px;
+  }
+  .about p { margin: 0 0 14px; color: var(--fg); }
+  .about p.sub { color: var(--muted); }
+
+  .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px;
+  }
+  .card h3 { font-size: 16px; margin: 0 0 6px; font-weight: 600; letter-spacing: -0.01em; }
+  .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
+  .card .idx { font-size: 12px; color: var(--accent); margin-bottom: 10px; display: block; }
+
+  .work { display: flex; flex-direction: column; gap: 12px; }
+  .proj {
+    display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; text-decoration: none;
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px;
+    transition: border-color .15s;
+  }
+  .proj:hover { border-color: var(--accent); }
+  .proj h3 { margin: 0; font-size: 16px; font-weight: 600; }
+  .proj .tag { font-size: 12px; color: var(--faint); align-self: center; }
+  .proj p { grid-column: 1 / -1; margin: 0; color: var(--muted); font-size: 14.5px; }
+  .proj .badge {
+    display: inline-block; font-size: 11px; color: var(--accent); background: var(--accent-soft);
+    padding: 1px 8px; border-radius: 999px; margin-left: 8px; vertical-align: 2px; font-weight: 500;
+  }
+
+  .timeline { list-style: none; margin: 0; padding: 0; }
+  .timeline li { display: grid; grid-template-columns: 120px 1fr; gap: 16px; padding: 10px 0; }
+  .timeline .when { color: var(--faint); font-size: 13px; padding-top: 2px; }
+  .timeline .what { color: var(--fg); }
+  .timeline .what span { display: block; color: var(--muted); font-size: 14.5px; }
+
+  .contact p { margin: 0 0 18px; color: var(--muted); }
+
+  footer { padding: 36px 0 56px; color: var(--faint); font-size: 13px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+
+  [data-lang="zh"] .en, [data-lang="en"] .zh { display: none !important; }
+
+  @media (max-width: 640px) {
+    .wrap { padding: 0 16px; }
+    .hero { padding: 40px 0 40px; }
+    .lede { font-size: 16.5px; }
+    .grid { grid-template-columns: 1fr; }
+    .timeline li { grid-template-columns: 1fr; gap: 2px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body data-lang="en">
+<div class="threads" aria-hidden="true"><svg id="threads" preserveAspectRatio="none"></svg></div>
+
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="/">ahuili<span>.</span>me</a>
+    <div class="tools">
+      <button id="langBtn" type="button" aria-label="Switch language">中文</button>
+      <button id="themeBtn" type="button" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow mono">
+        <span class="en">Hangzhou · often abroad</span>
+        <span class="zh">杭州 · 常在海外</span>
+      </p>
+      <h1>
+        <span class="en">Hi, I'm Arthur.<br>I turn AI into things people <em>actually use</em>.</span>
+        <span class="zh">你好，我是 Arthur。<br>我把 AI 做成<span class="nw"><em>真正有人用</em>的东西。</span></span>
+      </h1>
+      <p class="lede">
+        <span class="en">Engineer turned AI builder. Years of shipping software and leading engineering teams, now focused on AI-native products, agents, and the workflows around them.</span>
+        <span class="zh">工程师出身，做过多年技术开发和团队管理。现在专注 AI 落地：AI 原生产品、智能体，以及围绕它们的工作流。</span>
+      </p>
+      <div class="links">
+        <a class="btn primary" href="mailto:hi@ahuili.me">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          hi@ahuili.me
+        </a>
+        <a class="btn" href="https://github.com/ahuili">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <h2><span class="en">About</span><span class="zh">关于</span></h2>
+      <p class="en">I started as a software engineer, writing backends and infrastructure, and grew into leading teams that ship products end to end. That mix of hands-on building and managing is what I bring to AI today: knowing what a model can do is only half of it; the other half is turning it into something reliable, affordable, and genuinely useful.</p>
+      <p class="zh">我从软件工程师做起，写后端、搭基础设施，后来带团队把产品从零做到上线。动手做和带团队这两段经历，是我现在做 AI 的底子：知道模型能做什么只是一半，另一半是把它做成稳定、划算、真正好用的东西。</p>
+    </section>
+
+    <section id="focus">
+      <h2><span class="en">What I focus on</span><span class="zh">关注方向</span></h2>
+      <div class="grid">
+        <div class="card">
+          <span class="idx mono">01</span>
+          <h3><span class="en">AI-native products</span><span class="zh">AI 原生产品</span></h3>
+          <p class="en">From first prototype to something people rely on, with models at the core rather than bolted on.</p>
+          <p class="zh">从第一个原型到大家离不开的产品，模型是核心，而不是外挂。</p>
+        </div>
+        <div class="card">
+          <span class="idx mono">02</span>
+          <h3><span class="en">Agents &amp; workflows</span><span class="zh">智能体与工作流</span></h3>
+          <p class="en">Putting models to work on real tasks: research, analysis, and everyday productivity.</p>
+          <p class="zh">让模型干真实的活：研究、分析和日常效率。</p>
+        </div>
+        <div class="card">
+          <span class="idx mono">03</span>
+          <h3><span class="en">Model infrastructure</span><span class="zh">模型基础设施</span></h3>
+          <p class="en">Gateways, evaluation, and the engineering that makes AI systems reliable and affordable.</p>
+          <p class="zh">模型网关、效果评估，以及让 AI 系统稳定、划算的工程能力。</p>
+        </div>
+        <div class="card">
+          <span class="idx mono">04</span>
+          <h3><span class="en">Building teams</span><span class="zh">团队建设</span></h3>
+          <p class="en">Turning ideas into shipped products, and helping engineers grow along the way.</p>
+          <p class="zh">把想法变成上线的产品，也帮工程师一起成长。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work">
+      <h2><span class="en">Selected work</span><span class="zh">作品</span></h2>
+      <div class="work">
+        <a class="proj" href="https://github.com/ahuili/weft">
+          <h3>Weft <span class="badge"><span class="en">open-sourcing</span><span class="zh">即将开源</span></span></h3>
+          <span class="tag mono">macOS · Swift · LLM</span>
+          <p class="en">An AI-assisted window workbench for macOS. Describe how you work, and it arranges your screens into scenes you can switch between instantly.</p>
+          <p class="zh">AI 辅助的 macOS 窗口工作台。说一句你怎么工作，它就把屏幕上的窗口编排成一组组场景，一键切换。</p>
+        </a>
+        <a class="proj" href="https://github.com/ahuili/xinkdock">
+          <h3>xinkdock</h3>
+          <span class="tag mono">Docker</span>
+          <p class="en">Container-based dev environments for PHP-FPM, Nginx, and Python Flask.</p>
+          <p class="zh">基于 Docker 的开发环境：PHP-FPM、Nginx、Python Flask。</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="path">
+      <h2><span class="en">Path</span><span class="zh">经历</span></h2>
+      <ul class="timeline">
+        <li>
+          <div class="when mono"><span class="en">Now</span><span class="zh">现在</span></div>
+          <div class="what"><span class="en" style="display:inline;color:var(--fg)">AI builder</span><span class="zh" style="display:inline;color:var(--fg)">AI 产品与工程</span>
+            <span class="en">Building AI-native tools and products, from local model gateways to agent workflows.</span>
+            <span class="zh">做 AI 原生工具和产品，从本地模型网关到智能体工作流。</span></div>
+        </li>
+        <li>
+          <div class="when mono"><span class="en">Before</span><span class="zh">此前</span></div>
+          <div class="what"><span class="en" style="display:inline;color:var(--fg)">Engineering lead</span><span class="zh" style="display:inline;color:var(--fg)">技术管理</span>
+            <span class="en">Led engineering teams and shipped products end to end.</span>
+            <span class="zh">带技术团队，负责产品从立项到上线。</span></div>
+        </li>
+        <li>
+          <div class="when mono"><span class="en">Earlier</span><span class="zh">更早</span></div>
+          <div class="what"><span class="en" style="display:inline;color:var(--fg)">Software engineer</span><span class="zh" style="display:inline;color:var(--fg)">软件开发</span>
+            <span class="en">Backend, infrastructure, and the daily craft of shipping code.</span>
+            <span class="zh">后端、基础设施，以及日复一日写代码、交付。</span></div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2><span class="en">Say hi</span><span class="zh">联系我</span></h2>
+      <p class="en">Open to conversations about AI products, agents, and building teams around them.</p>
+      <p class="zh">欢迎聊 AI 产品、智能体，以及怎么围绕它们搭团队。</p>
+      <div class="links">
+        <a class="btn primary" href="mailto:hi@ahuili.me">hi@ahuili.me</a>
+        <a class="btn" href="https://github.com/ahuili">github.com/ahuili</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year">2026</span> Arthur Li</span>
+    <span class="mono">ahuili.me</span>
+  </footer>
+</div>
+
+<script>
+  // Language: remember choice; default to Chinese for zh browsers.
+  (function () {
+    var body = document.body, btn = document.getElementById('langBtn'), lang;
+    try { lang = localStorage.getItem('lang'); } catch (e) {}
+    if (!lang) lang = (navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+    function apply(l) {
+      body.setAttribute('data-lang', l);
+      document.documentElement.lang = l === 'zh' ? 'zh-CN' : 'en';
+      btn.textContent = l === 'zh' ? 'EN' : '中文';
+    }
+    apply(lang);
+    btn.addEventListener('click', function () {
+      lang = lang === 'zh' ? 'en' : 'zh';
+      apply(lang);
+      try { localStorage.setItem('lang', lang); } catch (e) {}
+    });
+  })();
+
+  // Theme toggle (follows system unless chosen).
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('themeBtn'), t;
+    try { t = localStorage.getItem('theme'); } catch (e) {}
+    if (t) root.setAttribute('data-theme', t);
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme')
+        ? root.getAttribute('data-theme') === 'dark'
+        : matchMedia('(prefers-color-scheme: dark)').matches;
+      t = dark ? 'light' : 'dark';
+      root.setAttribute('data-theme', t);
+      try { localStorage.setItem('theme', t); } catch (e) {}
+    });
+  })();
+
+  // Weft threads: gently waving horizontal lines.
+  (function () {
+    var svg = document.getElementById('threads');
+    var n = 14, paths = [];
+    for (var i = 0; i < n; i++) {
+      var p = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      svg.appendChild(p); paths.push(p);
+    }
+    var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    function draw(t) {
+      var w = svg.clientWidth || 1200, h = svg.clientHeight || 520;
+      svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
+      for (var i = 0; i < n; i++) {
+        var y0 = 40 + i * (h - 80) / (n - 1), amp = 10 + (i % 4) * 4, ph = i * 0.7 + t;
+        var d = 'M0 ' + y0.toFixed(1);
+        for (var x = 0; x <= w; x += 40) {
+          var y = y0 + Math.sin(x / 180 + ph) * amp;
+          d += ' L' + x + ' ' + y.toFixed(1);
+        }
+        paths[i].setAttribute('d', d);
+      }
+    }
+    if (reduce) { draw(0); return; }
+    var start = performance.now();
+    (function loop(now) { draw((now - start) / 6000); requestAnimationFrame(loop); })(start);
+  })();
+
+  document.getElementById('year').textContent = new Date().getFullYear();
 </script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-  
-  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-
-  
-  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-
-  
-  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-
-  
-  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
-
-
-
-  
-  
-
-  
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
-
-
-
-  
-
-  
-    
-  
-
-  <script type="text/javascript">
-    var duoshuoQuery = {short_name:"arthurs"};
-    (function() {
-      var ds = document.createElement('script');
-      ds.type = 'text/javascript';ds.async = true;
-      ds.id = 'duoshuo-script';
-      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-      ds.charset = 'UTF-8';
-      (document.getElementsByTagName('head')[0]
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-    })();
-  </script>
-
-  
-    
-    
-    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-
 </body>
 </html>
